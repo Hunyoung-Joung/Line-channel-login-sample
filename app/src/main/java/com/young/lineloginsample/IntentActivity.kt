@@ -10,12 +10,13 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import com.example.jp22601.myapplication.R
+//import com.young.lineloginsample.R
 import com.github.kittinunf.fuel.Fuel
 import com.github.kittinunf.fuel.android.extension.responseJson
-import com.example.jp22601.login.TokenUtil.Companion.decrypt
-import com.example.jp22601.login.TokenUtil.Companion.getCSRF
-import com.example.jp22601.login.TokenUtil.Companion.hasher
-import com.example.jp22601.login.TokenUtil.Companion.verifyToken
+import com.young.lineloginsample.TokenUtil.Companion.decrypt
+import com.young.lineloginsample.TokenUtil.Companion.getCSRF
+import com.young.lineloginsample.TokenUtil.Companion.hasher
+import com.young.lineloginsample.TokenUtil.Companion.verifyToken
 import org.json.JSONObject
 import java.io.BufferedReader
 import java.io.InputStream
